@@ -7,6 +7,7 @@ import os
 import errno
 import subprocess
 import math
+import natsort
 
 import numpy as np
 import scipy.ndimage as nd
