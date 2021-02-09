@@ -250,7 +250,7 @@ def main(inputdir, outputdir, modeldir, modeln, preview, octaves, octave_scale, 
     # input var setup
     make_sure_path_exists(inputdir)
     make_sure_path_exists(outputdir)
-    if modeldir is None: modeldir = '/content/DeepDreamAnim/models'
+    if modeldir is None: modeldir = '/content/DeepDreamAnimV2/models'
     if preview is None: preview = 0
     if octaves is None: octaves = 4
     if octave_scale is None: octave_scale = 1.5
